@@ -8,6 +8,8 @@
 
 </div>
 
+<img src="images/cover/awesome-gpt-image-2.5-cover.webp" width="100%" alt="Awesome GPT Image 2.5：视觉案例、工作流与 Prompt">
+
 ## GPT Image 2.5 是什么？
 
 GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGPT 中，它以 **ChatGPT Images 2.5** 提供；在 API 中，则分为 **GPT-Image-2.5 Flare** 和 **GPT-Image-2.5 Sunburst**。

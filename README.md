@@ -8,6 +8,8 @@
 
 </div>
 
+<img src="images/cover/awesome-gpt-image-2.5-cover.webp" width="100%" alt="Awesome GPT Image 2.5 — showcases, workflows, and prompts">
+
 ## What is GPT Image 2.5?
 
 GPT Image 2.5 is OpenAI's latest image generation and editing family. In ChatGPT it appears as **ChatGPT Images 2.5**. In the API it is available as **GPT-Image-2.5 Flare** and **GPT-Image-2.5 Sunburst**.

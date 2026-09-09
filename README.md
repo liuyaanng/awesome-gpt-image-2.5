@@ -115,6 +115,52 @@ The broad direction survives in both images, while the people, poses, styling de
 
 Source: [@3three_AI](https://x.com/3three_AI/status/2097575621870399517). The model labels shown in the images are part of the original post.
 
+### Hair-grid reference
+
+`Same prompt` `Portrait` `Consistency` `Community case`
+
+<img src="images/comparisons/3three-ai/hair-grid.jpg" alt="GPT Image 2.0 and GPT Image 2.5 hairstyle grid comparison" width="100%">
+
+Prompt: generate a nine-panel hairstyle reference from the supplied portrait and identify the most suitable hairstyle. The source post notes that GPT Image 2.0 repeated similar hairstyles in several panels, while GPT Image 2.5 produced more distinct designs with more natural hairlines, flyaways, and layering.
+
+Source: [@3three_AI](https://x.com/3three_AI/status/2097483692998635856).
+
+### Espresso machine cutaway
+
+`Same prompt` `Technical diagram` `Typography` `Community case`
+
+| GPT Image 2.0 | GPT Image 2.5 |
+| :---: | :---: |
+| <img src="images/comparisons/3three-ai/espresso-gpt-image-2.jpg" alt="GPT Image 2.0 espresso machine cutaway"> | <img src="images/comparisons/3three-ai/espresso-gpt-image-2-5.jpg" alt="GPT Image 2.5 espresso machine cutaway"> |
+
+The brief asks for a 1960s mechanical drawing of a domestic espresso machine, with 14 numbered callouts, a parts list, a centimeter scale, and the title `Fig. 3: Sectional View - Model C2`. This is a useful comparison for structured diagrams and dense labels.
+
+Source: [@3three_AI](https://x.com/3three_AI/status/2097575614341628370).
+
+### Hand-drawn Japanese animation still
+
+`Same prompt` `Style transfer` `Characters` `Community case`
+
+| GPT Image 2.0 | GPT Image 2.5 Sunburst |
+| :---: | :---: |
+| <img src="images/comparisons/3three-ai/anime-gpt-image-2.jpg" alt="GPT Image 2.0 hand-drawn Japanese animation still"> | <img src="images/comparisons/3three-ai/anime-gpt-image-2-5.jpg" alt="GPT Image 2.5 Sunburst hand-drawn Japanese animation still"> |
+
+The brief describes a late-1990s hand-drawn Japanese animation frame: two sword-bearing characters facing each other by the sea, with cherry blossoms moving across the frame. It tests style, atmosphere, character staging, and environmental detail at once.
+
+Source: [@3three_AI](https://x.com/3three_AI/status/2097575618166788158).
+
+### 1960s Sunday newspaper comic
+
+`Same prompt` `Multi-panel narrative` `Typography` `Community case`
+
+| GPT Image 2.0 | GPT Image 2.5 Sunburst |
+| :---: | :---: |
+| <img src="images/comparisons/3three-ai/newspaper-gpt-image-2.jpg" alt="GPT Image 2.0 Sunday newspaper comic"> | <img src="images/comparisons/3three-ai/newspaper-gpt-image-2-5.jpg" alt="GPT Image 2.5 Sunburst Sunday newspaper comic"> |
+
+This comparison uses a 1960s Sunday newspaper comic brief with six panels, recurring characters, speech balloons, sound effects, and a vintage print treatment. It is a good stress test for sequential composition and text placement.
+
+Source: [@3three_AI](https://x.com/3three_AI/status/2097575625666289844).
+
 ## Community showcases
 
 ### 001 · A 36-frame stop-motion hatchling

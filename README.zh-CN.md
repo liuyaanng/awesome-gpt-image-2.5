@@ -113,7 +113,53 @@ GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGP
 
 两张图都保留了整体创意方向，但人物、姿势、服装细节和环境在不同生成中发生了变化。这个案例适合做视觉参考，但不是严格 benchmark：原帖没有提供 seed、完整 API 参数或逐模型重试协议。
 
-来源：[[@3three_AI](https://x.com/3three_AI/status/2097575621870399517)]。图片中的模型标签属于原帖内容。
+来源：[@3three_AI](https://x.com/3three_AI/status/2097575621870399517)。图片中的模型标签属于原帖内容。
+
+### 九宫格发型参考
+
+`同一 Prompt` `肖像` `一致性` `社区案例`
+
+<img src="images/comparisons/3three-ai/hair-grid.jpg" alt="GPT Image 2.0 与 GPT Image 2.5 九宫格发型对比" width="100%">
+
+Prompt：根据输入人物生成九宫格发型参考图，并找出最适合这个人物的发型。原帖指出，GPT Image 2.0 的 9 个发型中有多个重复或相似，而 GPT Image 2.5 的设计差异更明显，发际线、碎发和层次感也更自然。
+
+来源：[@3three_AI](https://x.com/3three_AI/status/2097483692998635856)。
+
+### 意式浓缩咖啡机剖面图
+
+`同一 Prompt` `工程图` `文字排版` `社区案例`
+
+| GPT Image 2.0 | GPT Image 2.5 |
+| :---: | :---: |
+| <img src="images/comparisons/3three-ai/espresso-gpt-image-2.jpg" alt="GPT Image 2.0 意式浓缩咖啡机剖面图"> | <img src="images/comparisons/3three-ai/espresso-gpt-image-2-5.jpg" alt="GPT Image 2.5 意式浓缩咖啡机剖面图"> |
+
+Prompt 要求生成一张 1960 年代机械制图风格的家用浓缩咖啡机剖面图，包含 14 条编号引线、右侧零件列表、厘米比例尺和标题 `Fig. 3: Sectional View - Model C2`。这个案例适合观察复杂结构、编号和密集文字的稳定性。
+
+来源：[@3three_AI](https://x.com/3three_AI/status/2097575614341628370)。
+
+### 手绘日本动画电影截图
+
+`同一 Prompt` `风格转换` `人物` `社区案例`
+
+| GPT Image 2.0 | GPT Image 2.5 Sunburst |
+| :---: | :---: |
+| <img src="images/comparisons/3three-ai/anime-gpt-image-2.jpg" alt="GPT Image 2.0 手绘日本动画电影截图"> | <img src="images/comparisons/3three-ai/anime-gpt-image-2-5.jpg" alt="GPT Image 2.5 Sunburst 手绘日本动画电影截图"> |
+
+Prompt 描述一帧 1990 年代末手绘日本动画：海边两名持刀人物对峙，樱花从画面中飘过。它同时测试风格、氛围、人物调度和环境细节。
+
+来源：[@3three_AI](https://x.com/3three_AI/status/2097575618166788158)。
+
+### 1960 年代周日报纸漫画
+
+`同一 Prompt` `多格叙事` `文字排版` `社区案例`
+
+| GPT Image 2.0 | GPT Image 2.5 Sunburst |
+| :---: | :---: |
+| <img src="images/comparisons/3three-ai/newspaper-gpt-image-2.jpg" alt="GPT Image 2.0 周日报纸漫画"> | <img src="images/comparisons/3three-ai/newspaper-gpt-image-2-5.jpg" alt="GPT Image 2.5 Sunburst 周日报纸漫画"> |
+
+这个对比使用 1960 年代周日报纸漫画的创作要求：六格叙事、重复人物、对白气泡、拟声词和复古印刷质感。它适合观察连续构图和文字位置控制。
+
+来源：[@3three_AI](https://x.com/3three_AI/status/2097575625666289844)。
 
 ## Community Showcase
 

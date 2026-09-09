@@ -44,6 +44,7 @@ GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGP
 ## 分类浏览
 
 - [官方视觉墙](#官方视觉墙) — OpenAI 发布案例和编辑对比
+- [模型对比](#模型对比) — 同一个创意简报在不同模型上的结果
 - [Community Showcase](#community-showcase) — 完成度高的社区实验与创作项目
 - [工作流](#工作流) — 可以复现的创作方法
 - [模型对比与局限](#模型对比与局限) — 效果差异、取舍和失败案例
@@ -97,6 +98,22 @@ GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGP
 | <img src="images/official/dog-before.webp" alt="露台上的狗"> | <img src="images/official/dog-after.webp" alt="穿着特技服装的同一只狗"> |
 
 本节图片均来自 OpenAI 的 [ChatGPT Images 2.5 发布文章](https://openai.com/index/introducing-chatgpt-images-2-5/)。
+
+## 模型对比
+
+### GPT Image 2 与 GPT Image 2.5 Sunburst
+
+`同一 Prompt` `时尚广告` `低机位构图` `社区案例`
+
+| GPT Image 2.0 | GPT Image 2.5 Sunburst |
+| :---: | :---: |
+| <img src="images/comparisons/virtual-fashion-campaign-a.jpg" alt="GPT Image 2.0 虚拟时尚广告"> | <img src="images/comparisons/virtual-fashion-campaign-b.jpg" alt="GPT Image 2.5 Sunburst 虚拟时尚广告"> |
+
+同一份创意简报要求生成一组虚构时尚品牌广告：六个人分别穿电蓝、番茄红、青绿色、热情粉、黄油黄和淡紫色服装，从地面使用倾斜的 24 毫米镜头拍摄，背景是钴蓝色天空。
+
+两张图都保留了整体创意方向，但人物、姿势、服装细节和环境在不同生成中发生了变化。这个案例适合做视觉参考，但不是严格 benchmark：原帖没有提供 seed、完整 API 参数或逐模型重试协议。
+
+来源：[[@3three_AI](https://x.com/3three_AI/status/2097575621870399517)]。图片中的模型标签属于原帖内容。
 
 ## Community Showcase
 

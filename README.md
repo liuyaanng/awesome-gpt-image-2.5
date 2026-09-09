@@ -44,6 +44,7 @@ Sources: [OpenAI launch article](https://openai.com/index/introducing-chatgpt-im
 ## Browse
 
 - [Official gallery](#official-gallery) — launch images and editing examples from OpenAI
+- [Model comparisons](#model-comparisons) — the same creative brief across model versions
 - [Community showcases](#community-showcases) — finished experiments and creative projects
 - [Workflows](#workflows) — useful processes you can reproduce
 - [Comparisons and limitations](#comparisons-and-limitations) — benchmarks, trade-offs, and failures
@@ -97,6 +98,22 @@ Sources: [OpenAI launch article](https://openai.com/index/introducing-chatgpt-im
 | <img src="images/official/dog-before.webp" alt="Dog on a patio"> | <img src="images/official/dog-after.webp" alt="The same dog wearing a stunt suit"> |
 
 All images in this section come from OpenAI's [ChatGPT Images 2.5 launch](https://openai.com/index/introducing-chatgpt-images-2-5/).
+
+## Model comparisons
+
+### GPT Image 2 vs GPT Image 2.5 Sunburst
+
+`Same prompt` `Fashion campaign` `Low-angle composition` `Community case`
+
+| GPT Image 2.0 | GPT Image 2.5 Sunburst |
+| :---: | :---: |
+| <img src="images/comparisons/virtual-fashion-campaign-a.jpg" alt="GPT Image 2.0 virtual fashion campaign"> | <img src="images/comparisons/virtual-fashion-campaign-b.jpg" alt="GPT Image 2.5 Sunburst virtual fashion campaign"> |
+
+The same creative brief asks for a fictional fashion campaign: six people in electric blue, tomato red, teal, hot pink, butter yellow, and lavender, photographed from the ground with a tilted 24 mm perspective against a cobalt-blue sky.
+
+The broad direction survives in both images, while the people, poses, styling details, and environment shift between generations. This is a useful visual comparison, but not a controlled benchmark: the source post does not provide seeds, full API settings, or a per-model retry protocol.
+
+Source: [@3three_AI](https://x.com/3three_AI/status/2097575621870399517). The model labels shown in the images are part of the original post.
 
 ## Community showcases
 

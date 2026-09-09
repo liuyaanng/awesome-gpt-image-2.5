@@ -177,6 +177,34 @@ Ivana 使用 **GPT Image 2.5 生成了 36 张图片**，再通过 Codex 把它�
 
 [查看 @ivanainai 原帖](https://x.com/ivanainai/status/2097446105906553188) · [MP4 文件](images/showcase/stop-motion-ivanainai.mp4)
 
+### 002 · 毛毛虫化蝶定格动画
+
+`定格动画` `形态变化` `场景一致性` `图片序列`
+
+<p align="center">
+  <img src="images/showcase/stop-motion-charlierguo.gif" width="480" alt="毛毛虫结蛹并羽化成蝴蝶的定格动画">
+</p>
+
+Charlie Guo 分享了一段约 10 秒的 GPT Image 2.5 定格动画，连续展示毛毛虫结蛹并最终羽化成蝴蝶的过程。
+
+树枝、桌面、相机和光线保持固定，让主体在连续变化时仍然容易理解。这个案例简洁地展示了如何使用生成图片组织时间过程。
+
+[查看 @charlierguo 原帖](https://x.com/charlierguo/status/2097399137142772071) · [MP4 文件](images/showcase/stop-motion-charlierguo.mp4)
+
+### 003 · 十秒动漫战斗序列
+
+`图片序列` `动作连续性` `角色一致性` `现有角色`
+
+<p align="center">
+  <img src="images/showcase/image-sequence-chetaslua.gif" width="720" alt="两个可识别的动漫角色在岩石场景中完成高强度战斗序列">
+</p>
+
+Chetaslua 发布了一段由 GPT Image 2.5 图像组成的 10 秒动画。它使用可识别的现有动漫角色，从对峙开始，连续展示蓄力、冲刺、碰撞、能量效果和战斗结束后的画面。
+
+这个案例适合观察较长图片序列中的动作连续性、机位推进、特效和背景稳定性。原帖没有公开图片数量、Prompt 或拼接方法。
+
+[查看 @chetaslua 原帖](https://x.com/chetaslua/status/2097577048651022348) · [MP4 文件](images/showcase/image-sequence-chetaslua.mp4)
+
 ## 工作流
 
 ### 使用参考图控制商品摄影

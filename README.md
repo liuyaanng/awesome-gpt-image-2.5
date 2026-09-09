@@ -177,6 +177,34 @@ This is a useful example of treating an image model as a sequence renderer rathe
 
 [Original post by @ivanainai](https://x.com/ivanainai/status/2097446105906553188) · [MP4](images/showcase/stop-motion-ivanainai.mp4)
 
+### 002 · Caterpillar-to-butterfly stop motion
+
+`Stop motion` `Transformation` `Scene consistency` `Image sequence`
+
+<p align="center">
+  <img src="images/showcase/stop-motion-charlierguo.gif" width="480" alt="A caterpillar transforms into a chrysalis and then a butterfly in a stop-motion loop">
+</p>
+
+Charlie Guo shared a 10-second GPT Image 2.5 stop-motion sequence following a caterpillar through chrysalis formation and emergence as a butterfly.
+
+The fixed branch, tabletop, camera, and lighting make the transformation readable while the subject changes across the sequence. It is a compact demonstration of temporal staging with generated still images.
+
+[Original post by @charlierguo](https://x.com/charlierguo/status/2097399137142772071) · [MP4](images/showcase/stop-motion-charlierguo.mp4)
+
+### 003 · Ten-second anime battle sequence
+
+`Image sequence` `Action continuity` `Character consistency` `Existing characters`
+
+<p align="center">
+  <img src="images/showcase/image-sequence-chetaslua.gif" width="720" alt="Two recognizable anime characters perform a high-energy battle sequence across a rocky landscape">
+</p>
+
+Chetaslua published a 10-second animation made with GPT Image 2.5 imagery. The sequence uses recognizable existing anime characters and moves from a standoff through charges, impacts, energy effects, and a final aftermath shot.
+
+It is useful for studying action continuity, camera progression, effects, and background stability across a longer generated sequence. No frame count, prompt, or assembly method was disclosed in the post.
+
+[Original post by @chetaslua](https://x.com/chetaslua/status/2097577048651022348) · [MP4](images/showcase/image-sequence-chetaslua.mp4)
+
 ## Workflows
 
 ### Reference-led product photography

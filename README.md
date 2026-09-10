@@ -44,10 +44,9 @@ Sources: [OpenAI launch article](https://openai.com/index/introducing-chatgpt-im
 ## Browse
 
 - [Official gallery](#official-gallery) — launch images and editing examples from OpenAI
-- [Model comparisons](#model-comparisons) — the same creative brief across model versions
+- [Model comparisons and limitations](#model-comparisons-and-limitations) — benchmarks, trade-offs, and failures
 - [Community showcases](#community-showcases) — finished experiments and creative projects
 - [Workflows](#workflows) — useful processes you can reproduce
-- [Comparisons and limitations](#comparisons-and-limitations) — benchmarks, trade-offs, and failures
 - [Official prompt gallery](#official-prompt-gallery) — images and copyable prompts from OpenAI
 
 ## Official prompt gallery
@@ -182,7 +181,7 @@ Extract the product from the input image and isolate it on a fully transparent b
 
 All images in this section come from OpenAI's [ChatGPT Images 2.5 launch](https://openai.com/index/introducing-chatgpt-images-2-5/).
 
-## Model comparisons
+## Model comparisons and limitations
 
 ### GPT Image 2 vs GPT Image 2.5 Sunburst
 
@@ -243,6 +242,18 @@ Source: [@3three_AI](https://x.com/3three_AI/status/2097575618166788158).
 This comparison uses a 1960s Sunday newspaper comic brief with six panels, recurring characters, speech balloons, sound effects, and a vintage print treatment. It is a good stress test for sequential composition and text placement.
 
 Source: [@3three_AI](https://x.com/3three_AI/status/2097575625666289844).
+
+### Same complex prompt: GPT Image 2 vs 2.5
+
+<img src="images/community/gpt-image-2-vs-2-5-forest.jpg" alt="GPT Image 2 and GPT Image 2.5 forest comparison" width="100%">
+
+In this run, GPT Image 2.5 produced sharper detail and richer textures and was nearly twice as fast, but also introduced more visual noise. [Original post by @TimJayas](https://x.com/TimJayas/status/2097442532980634096).
+
+### Better does not mean exact
+
+<img src="images/community/editing-failure-case.jpg" alt="Ground truth compared with GPT Image 2 and GPT Image 2.5 diagram edits" width="100%">
+
+GPT Image 2.5 improved this diagram edit but still invented lines that were not present in the ground truth. Diagrams, UI, typography, and infographics still need careful verification. [Original post by @pigeon__s](https://x.com/pigeon__s/status/2097412201778966629).
 
 ## Community showcases
 
@@ -320,20 +331,6 @@ and person exactly where they are. Change only the weather and lighting.
 ```
 
 More examples in [@cgtwts' original thread](https://x.com/cgtwts/status/2097456916335383025).
-
-## Comparisons and limitations
-
-### Same complex prompt: GPT Image 2 vs 2.5
-
-<img src="images/community/gpt-image-2-vs-2-5-forest.jpg" alt="GPT Image 2 and GPT Image 2.5 forest comparison" width="100%">
-
-In this run, GPT Image 2.5 produced sharper detail and richer textures and was nearly twice as fast, but also introduced more visual noise. [Original post by @TimJayas](https://x.com/TimJayas/status/2097442532980634096).
-
-### Better does not mean exact
-
-<img src="images/community/editing-failure-case.jpg" alt="Ground truth compared with GPT Image 2 and GPT Image 2.5 diagram edits" width="100%">
-
-GPT Image 2.5 improved this diagram edit but still invented lines that were not present in the ground truth. Diagrams, UI, typography, and infographics still need careful verification. [Original post by @pigeon__s](https://x.com/pigeon__s/status/2097412201778966629).
 
 ---
 

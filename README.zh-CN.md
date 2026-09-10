@@ -44,10 +44,9 @@ GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGP
 ## 分类浏览
 
 - [官方视觉墙](#官方视觉墙) — OpenAI 发布案例和编辑对比
-- [模型对比](#模型对比) — 同一个创意简报在不同模型上的结果
+- [模型对比与局限](#模型对比与局限) — 效果差异、取舍和失败案例
 - [Community Showcase](#community-showcase) — 完成度高的社区实验与创作项目
 - [工作流](#工作流) — 可以复现的创作方法
-- [模型对比与局限](#模型对比与局限) — 效果差异、取舍和失败案例
 - [官方 Prompt 图库](#官方-prompt-图库) — OpenAI 成图和可复制 Prompt
 
 ## 官方 Prompt 图库
@@ -182,7 +181,7 @@ Extract the product from the input image and isolate it on a fully transparent b
 
 本节图片均来自 OpenAI 的 [ChatGPT Images 2.5 发布文章](https://openai.com/index/introducing-chatgpt-images-2-5/)。
 
-## 模型对比
+## 模型对比与局限
 
 ### GPT Image 2 与 GPT Image 2.5 Sunburst
 
@@ -243,6 +242,18 @@ Prompt 描述一帧 1990 年代末手绘日本动画：海边两名持刀人物�
 这个对比使用 1960 年代周日报纸漫画的创作要求：六格叙事、重复人物、对白气泡、拟声词和复古印刷质感。它适合观察连续构图和文字位置控制。
 
 来源：[@3three_AI](https://x.com/3three_AI/status/2097575625666289844)。
+
+### 同一个复杂 Prompt：GPT Image 2 与 2.5
+
+<img src="images/community/gpt-image-2-vs-2-5-forest.jpg" alt="GPT Image 2 与 GPT Image 2.5 森林对比" width="100%">
+
+这次生成中，GPT Image 2.5 的细节和材质更丰富，速度接近两倍，但复杂场景中的视觉噪点也更多。[查看 @TimJayas 原帖](https://x.com/TimJayas/status/2097442532980634096)。
+
+### 更好不代表完全准确
+
+<img src="images/community/editing-failure-case.jpg" alt="标准答案与 GPT Image 2、GPT Image 2.5 图解编辑结果对比" width="100%">
+
+GPT Image 2.5 改善了这个图解编辑结果，但仍然添加了标准答案中不存在的线条。图解、UI、文字和信息图仍然需要仔细检查。[查看 @pigeon__s 原帖](https://x.com/pigeon__s/status/2097412201778966629)。
 
 ## Community Showcase
 
@@ -320,20 +331,6 @@ Chetaslua 发布了一段由 GPT Image 2.5 图像组成的 10 秒动画。它使
 ```
 
 更多例子见 [@cgtwts 的原始帖子](https://x.com/cgtwts/status/2097456916335383025)。
-
-## 模型对比与局限
-
-### 同一个复杂 Prompt：GPT Image 2 与 2.5
-
-<img src="images/community/gpt-image-2-vs-2-5-forest.jpg" alt="GPT Image 2 与 GPT Image 2.5 森林对比" width="100%">
-
-这次生成中，GPT Image 2.5 的细节和材质更丰富，速度接近两倍，但复杂场景中的视觉噪点也更多。[查看 @TimJayas 原帖](https://x.com/TimJayas/status/2097442532980634096)。
-
-### 更好不代表完全准确
-
-<img src="images/community/editing-failure-case.jpg" alt="标准答案与 GPT Image 2、GPT Image 2.5 图解编辑结果对比" width="100%">
-
-GPT Image 2.5 改善了这个图解编辑结果，但仍然添加了标准答案中不存在的线条。图解、UI、文字和信息图仍然需要仔细检查。[查看 @pigeon__s 原帖](https://x.com/pigeon__s/status/2097412201778966629)。
 
 ---
 

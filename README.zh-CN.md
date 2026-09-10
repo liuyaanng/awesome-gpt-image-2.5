@@ -48,75 +48,89 @@ GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGP
 - [Community Showcase](#community-showcase) — 完成度高的社区实验与创作项目
 - [工作流](#工作流) — 可以复现的创作方法
 - [模型对比与局限](#模型对比与局限) — 效果差异、取舍和失败案例
-- [官方 Prompt 范式](#官方-prompt-范式) — 直接来自 OpenAI 文档的可复制示例
+- [官方 Prompt 图库](#官方-prompt-图库) — OpenAI 成图和可复制 Prompt
 
-## 官方 Prompt 范式
-
-以下可直接复制的 Prompt 来自 OpenAI 的 [GPT Image 2.5 提示词指南](https://developers.openai.com/api/docs/guides/image-prompting)。它们覆盖不同能力，不复用第三方图库中的生成图片。
+## 官方 Prompt 图库
 
 ### 纪实摄影
+
+<img src="images/official/prompting/sailor-photography-sunburst.webp" alt="GPT Image 2.5 Sunburst 纪实水手摄影" width="100%">
 
 ```text
 Create a photorealistic candid photograph of an elderly sailor standing on a small fishing boat. He has weathered skin with visible wrinkles, pores, and sun texture, and a few faded traditional sailor tattoos on his arms. He is calmly adjusting a net while his dog sits nearby on the deck. Shot like a 35mm film photograph, medium close-up at eye level, using a 50mm lens. Soft coastal daylight, shallow depth of field, subtle film grain, natural color balance. The image should feel honest and unposed, with real skin texture, worn materials, and everyday detail. No glamorization, no heavy retouching.
 ```
 
-[OpenAI 原始示例：控制风格和光线](https://developers.openai.com/api/docs/guides/image-prompting#control-style-and-lighting)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#control-style-and-lighting)
 
 ### 流程信息图
+
+<img src="images/official/prompting/coffee-machine-infographic-sunburst.webp" alt="GPT Image 2.5 Sunburst 咖啡机流程信息图" width="100%">
 
 ```text
 Create a detailed Infographic of the functioning and flow of an automatic coffee machine like a Jura. From bean basket, to grinding, to scale, water tank, boiler, etc. I'd like to understand technically and visually the flow.
 ```
 
-[OpenAI 原始示例：可视化说明流程](https://developers.openai.com/api/docs/guides/image-prompting#explain-a-process-visually)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#explain-a-process-visually)
 
 ### 精准文字广告图
+
+<img src="images/official/prompting/thread-campaign-sunburst.webp" alt="GPT Image 2.5 Sunburst Thread 街头服饰广告" width="100%">
 
 ```text
 Give me a cool in culture ad / fashion shot for a brand called Thread. It's a hip young street brand. The ad shows a group of friends hanging out together with the tagline "Yours to Create." Make it feel like a polished campaign image for a youth streetwear audience: stylish, contemporary, energetic, and tasteful. Use clean composition, strong color direction, natural poses, and premium fashion photography cues. Render the tagline exactly once, clearly and legibly, integrated into the ad layout. No extra text, no watermarks, no unrelated logos.
 ```
 
-[OpenAI 原始示例：渲染准确文字](https://developers.openai.com/api/docs/guides/image-prompting#render-exact-text)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#render-exact-text)
 
 ### 透明背景 Logo
+
+<img src="images/official/prompting/field-and-flour-logo-sunburst.webp" alt="GPT Image 2.5 Sunburst Field and Flour 面包店 Logo" width="100%">
 
 ```text
 Create an original, non-infringing logo for a company called Field & Flour, a local bakery. The logo should feel warm, simple, and timeless. Use clean, vector-like shapes, a strong silhouette, and balanced negative space. Favor simplicity over detail so it reads clearly at small and large sizes. Flat design, minimal strokes, no gradients unless essential. Fully transparent background. Deliver a single centered logo with generous padding, clean alpha edges, and no solid backdrop, scenery, checkerboard, or watermark.
 ```
 
-[OpenAI 原始示例：设计可复用 Logo](https://developers.openai.com/api/docs/guides/image-prompting#design-a-reusable-logo)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#design-a-reusable-logo)
 
 ### 移动端应用概念稿
+
+<img src="images/official/prompting/farmers-market-ui-sunburst.webp" alt="GPT Image 2.5 Sunburst 农夫市集移动端应用概念稿" width="100%">
 
 ```text
 Create a realistic mobile app UI mockup for a local farmers market. Show today’s market with a simple header, a short list of vendors with small photos and categories, a small “Today’s specials” section, and basic information for location and hours. Design it to be practical, and easy to use. White background, subtle natural accent colors, clear typography, and minimal decoration. It should look like a real, well-designed, beautiful app for a small local market. Place the UI mockup in an iPhone frame.
 ```
 
-[OpenAI 原始示例：创建界面预览](https://developers.openai.com/api/docs/guides/image-prompting#create-an-interface-preview)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#create-an-interface-preview)
 
-### 翻译但保持版式
+### 翻译且保持版式
+
+<img src="images/official/prompting/coffee-machine-spanish-sunburst.webp" alt="GPT Image 2.5 Sunburst 西班牙语咖啡机信息图" width="100%">
 
 ```text
 Translate the text in the infographic to Spanish. Do not change any other aspect of the image.
 ```
 
-[OpenAI 原始示例：翻译且保留版式](https://developers.openai.com/api/docs/guides/image-prompting#translate-while-preserving-layout)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#translate-while-preserving-layout)
 
 ### 换装但保持身份
+
+<img src="images/official/prompting/outfit-edit-sunburst.webp" alt="GPT Image 2.5 Sunburst 保持身份的换装编辑" width="100%">
 
 ```text
 Edit the image to dress the woman using the provided clothing images. Do not change her face, facial features, skin tone, body shape, pose, or identity in any way. Preserve her exact likeness, expression, hairstyle, and proportions. Replace only the clothing, fitting the garments naturally to her existing pose and body geometry with realistic fabric behavior. Match lighting, shadows, and color temperature to the original photo so the outfit integrates photorealistically, without looking pasted on. Do not change the background, camera angle, framing, or image quality, and do not add accessories, text, logos, or watermarks.
 ```
 
-[OpenAI 原始示例：保持身份并换装](https://developers.openai.com/api/docs/guides/image-prompting#preserve-identity-and-change-clothing)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#preserve-identity-and-change-clothing)
 
 ### 商品透明背景抠图
+
+<img src="images/official/prompting/product-cutout-sunburst.webp" alt="GPT Image 2.5 Sunburst 商品透明背景抠图" width="100%">
 
 ```text
 Extract the product from the input image and isolate it on a fully transparent background. Output: centered product, crisp silhouette, no halos/fringing. Preserve product geometry and label legibility exactly. Add only light polishing. Do not add a solid backdrop, checkerboard, scenery, or shadow. Do not restyle the product; remove the background and preserve clean alpha transparency.
 ```
 
-[OpenAI 原始示例：创建透明商品抠图](https://developers.openai.com/api/docs/guides/image-prompting#create-a-transparent-product-cutout)
+[OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#create-a-transparent-product-cutout)
 
 ## 官方视觉墙
 

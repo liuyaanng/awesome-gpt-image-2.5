@@ -43,13 +43,12 @@ Sources: [OpenAI launch article](https://openai.com/index/introducing-chatgpt-im
 
 ## Browse
 
-- [Official gallery](#official-gallery) — launch images and editing examples from OpenAI
+- [Official gallery](#official-gallery) — OpenAI images and copyable prompts
 - [Model comparisons and limitations](#model-comparisons-and-limitations) — benchmarks, trade-offs, and failures
 - [Community showcases](#community-showcases) — finished experiments and creative projects
 - [Workflows](#workflows) — useful processes you can reproduce
-- [Official prompt gallery](#official-prompt-gallery) — images and copyable prompts from OpenAI
 
-## Official prompt gallery
+## Official gallery
 
 ### Documentary photography
 
@@ -131,9 +130,9 @@ Extract the product from the input image and isolate it on a fully transparent b
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#create-a-transparent-product-cutout)
 
-## Official gallery
+### Launch gallery
 
-### Design, typography, and information
+#### Design, typography, and information
 
 <p align="center">
   <img src="images/official/mid-century-modern-posters.webp" width="32%" alt="Nine mid-century posters">
@@ -146,7 +145,7 @@ Extract the product from the input image and isolate it on a fully transparent b
   <img src="images/official/travel-infographic.webp" width="32%" alt="Chinese travel infographic">
 </p>
 
-### Styles and worlds
+#### Styles and worlds
 
 <p align="center">
   <img src="images/official/retrofuturism.webp" width="32%" alt="Retrofuturistic space habitat">
@@ -159,7 +158,7 @@ Extract the product from the input image and isolate it on a fully transparent b
   <img src="images/official/80s-headshot.webp" width="32%" alt="1980s portrait">
 </p>
 
-### Reference-led editing
+#### Reference-led editing
 
 **Change the outfit, preserve the person**
 

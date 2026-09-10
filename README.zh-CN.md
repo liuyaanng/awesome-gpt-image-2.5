@@ -43,13 +43,12 @@ GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGP
 
 ## 分类浏览
 
-- [官方视觉墙](#官方视觉墙) — OpenAI 发布案例和编辑对比
+- [官方视觉墙](#官方视觉墙) — OpenAI 成图、Prompt 与编辑案例
 - [模型对比与局限](#模型对比与局限) — 效果差异、取舍和失败案例
 - [Community Showcase](#community-showcase) — 完成度高的社区实验与创作项目
 - [工作流](#工作流) — 可以复现的创作方法
-- [官方 Prompt 图库](#官方-prompt-图库) — OpenAI 成图和可复制 Prompt
 
-## 官方 Prompt 图库
+## 官方视觉墙
 
 ### 纪实摄影
 
@@ -131,9 +130,9 @@ Extract the product from the input image and isolate it on a fully transparent b
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#create-a-transparent-product-cutout)
 
-## 官方视觉墙
+### 发布视觉案例
 
-### 设计、文字与信息表达
+#### 设计、文字与信息表达
 
 <p align="center">
   <img src="images/official/mid-century-modern-posters.webp" width="32%" alt="九张中世纪现代风格海报">
@@ -146,7 +145,7 @@ Extract the product from the input image and isolate it on a fully transparent b
   <img src="images/official/travel-infographic.webp" width="32%" alt="中文旅行信息图">
 </p>
 
-### 风格与世界构建
+#### 风格与世界构建
 
 <p align="center">
   <img src="images/official/retrofuturism.webp" width="32%" alt="复古未来主义太空城市">
@@ -159,7 +158,7 @@ Extract the product from the input image and isolate it on a fully transparent b
   <img src="images/official/80s-headshot.webp" width="32%" alt="80 年代肖像">
 </p>
 
-### 参考图编辑
+#### 参考图编辑
 
 **替换服装，保持人物**
 

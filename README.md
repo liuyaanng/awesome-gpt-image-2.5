@@ -48,6 +48,75 @@ Sources: [OpenAI launch article](https://openai.com/index/introducing-chatgpt-im
 - [Community showcases](#community-showcases) — finished experiments and creative projects
 - [Workflows](#workflows) — useful processes you can reproduce
 - [Comparisons and limitations](#comparisons-and-limitations) — benchmarks, trade-offs, and failures
+- [Official prompt patterns](#official-prompt-patterns) — copyable prompts from OpenAI documentation
+
+## Official prompt patterns
+
+The following copyable prompts are published in OpenAI's [GPT Image 2.5 prompting guide](https://developers.openai.com/api/docs/guides/image-prompting). They cover distinct capabilities without duplicating third-party gallery media.
+
+### Documentary photography
+
+```text
+Create a photorealistic candid photograph of an elderly sailor standing on a small fishing boat. He has weathered skin with visible wrinkles, pores, and sun texture, and a few faded traditional sailor tattoos on his arms. He is calmly adjusting a net while his dog sits nearby on the deck. Shot like a 35mm film photograph, medium close-up at eye level, using a 50mm lens. Soft coastal daylight, shallow depth of field, subtle film grain, natural color balance. The image should feel honest and unposed, with real skin texture, worn materials, and everyday detail. No glamorization, no heavy retouching.
+```
+
+[OpenAI source: control style and lighting](https://developers.openai.com/api/docs/guides/image-prompting#control-style-and-lighting)
+
+### Process infographic
+
+```text
+Create a detailed Infographic of the functioning and flow of an automatic coffee machine like a Jura. From bean basket, to grinding, to scale, water tank, boiler, etc. I'd like to understand technically and visually the flow.
+```
+
+[OpenAI source: explain a process visually](https://developers.openai.com/api/docs/guides/image-prompting#explain-a-process-visually)
+
+### Exact-text campaign image
+
+```text
+Give me a cool in culture ad / fashion shot for a brand called Thread. It's a hip young street brand. The ad shows a group of friends hanging out together with the tagline "Yours to Create." Make it feel like a polished campaign image for a youth streetwear audience: stylish, contemporary, energetic, and tasteful. Use clean composition, strong color direction, natural poses, and premium fashion photography cues. Render the tagline exactly once, clearly and legibly, integrated into the ad layout. No extra text, no watermarks, no unrelated logos.
+```
+
+[OpenAI source: render exact text](https://developers.openai.com/api/docs/guides/image-prompting#render-exact-text)
+
+### Transparent logo
+
+```text
+Create an original, non-infringing logo for a company called Field & Flour, a local bakery. The logo should feel warm, simple, and timeless. Use clean, vector-like shapes, a strong silhouette, and balanced negative space. Favor simplicity over detail so it reads clearly at small and large sizes. Flat design, minimal strokes, no gradients unless essential. Fully transparent background. Deliver a single centered logo with generous padding, clean alpha edges, and no solid backdrop, scenery, checkerboard, or watermark.
+```
+
+[OpenAI source: design a reusable logo](https://developers.openai.com/api/docs/guides/image-prompting#design-a-reusable-logo)
+
+### Mobile app concept
+
+```text
+Create a realistic mobile app UI mockup for a local farmers market. Show today’s market with a simple header, a short list of vendors with small photos and categories, a small “Today’s specials” section, and basic information for location and hours. Design it to be practical, and easy to use. White background, subtle natural accent colors, clear typography, and minimal decoration. It should look like a real, well-designed, beautiful app for a small local market. Place the UI mockup in an iPhone frame.
+```
+
+[OpenAI source: create an interface preview](https://developers.openai.com/api/docs/guides/image-prompting#create-an-interface-preview)
+
+### Translate without layout drift
+
+```text
+Translate the text in the infographic to Spanish. Do not change any other aspect of the image.
+```
+
+[OpenAI source: translate while preserving layout](https://developers.openai.com/api/docs/guides/image-prompting#translate-while-preserving-layout)
+
+### Change clothing, preserve identity
+
+```text
+Edit the image to dress the woman using the provided clothing images. Do not change her face, facial features, skin tone, body shape, pose, or identity in any way. Preserve her exact likeness, expression, hairstyle, and proportions. Replace only the clothing, fitting the garments naturally to her existing pose and body geometry with realistic fabric behavior. Match lighting, shadows, and color temperature to the original photo so the outfit integrates photorealistically, without looking pasted on. Do not change the background, camera angle, framing, or image quality, and do not add accessories, text, logos, or watermarks.
+```
+
+[OpenAI source: preserve identity and change clothing](https://developers.openai.com/api/docs/guides/image-prompting#preserve-identity-and-change-clothing)
+
+### Product cutout
+
+```text
+Extract the product from the input image and isolate it on a fully transparent background. Output: centered product, crisp silhouette, no halos/fringing. Preserve product geometry and label legibility exactly. Add only light polishing. Do not add a solid backdrop, checkerboard, scenery, or shadow. Do not restyle the product; remove the background and preserve clean alpha transparency.
+```
+
+[OpenAI source: create a transparent product cutout](https://developers.openai.com/api/docs/guides/image-prompting#create-a-transparent-product-cutout)
 
 ## Official gallery
 

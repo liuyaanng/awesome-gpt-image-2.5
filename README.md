@@ -47,10 +47,11 @@ Sources: [OpenAI launch article](https://openai.com/index/introducing-chatgpt-im
 - [Model comparisons and limitations](#model-comparisons-and-limitations) — benchmarks, trade-offs, and failures
 - [Community showcases](#community-showcases) — finished experiments and creative projects
 - [Workflows](#workflows) — useful processes you can reproduce
+- [Community X prompt gallery](docs/prompts/community-x.md) — prompts 009-077
 
 ## Official gallery
 
-### Documentary photography
+### 001 · Documentary photography
 
 <img src="images/official/prompting/sailor-photography-sunburst.webp" alt="GPT Image 2.5 Sunburst documentary sailor photograph" width="100%">
 
@@ -60,7 +61,7 @@ Create a photorealistic candid photograph of an elderly sailor standing on a sma
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#control-style-and-lighting)
 
-### Process infographic
+### 002 · Process infographic
 
 <img src="images/official/prompting/coffee-machine-infographic-sunburst.webp" alt="GPT Image 2.5 Sunburst coffee machine infographic" width="100%">
 
@@ -70,7 +71,7 @@ Create a detailed Infographic of the functioning and flow of an automatic coffee
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#explain-a-process-visually)
 
-### Exact-text campaign image
+### 003 · Exact-text campaign image
 
 <img src="images/official/prompting/thread-campaign-sunburst.webp" alt="GPT Image 2.5 Sunburst Thread streetwear campaign" width="100%">
 
@@ -80,7 +81,7 @@ Give me a cool in culture ad / fashion shot for a brand called Thread. It's a hi
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#render-exact-text)
 
-### Transparent logo
+### 004 · Transparent logo
 
 <img src="images/official/prompting/field-and-flour-logo-sunburst.webp" alt="GPT Image 2.5 Sunburst Field and Flour bakery logo" width="100%">
 
@@ -90,7 +91,7 @@ Create an original, non-infringing logo for a company called Field & Flour, a lo
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#design-a-reusable-logo)
 
-### Mobile app concept
+### 005 · Mobile app concept
 
 <img src="images/official/prompting/farmers-market-ui-sunburst.webp" alt="GPT Image 2.5 Sunburst farmers market mobile app concept" width="100%">
 
@@ -100,7 +101,7 @@ Create a realistic mobile app UI mockup for a local farmers market. Show today�
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#create-an-interface-preview)
 
-### Translate while preserving layout
+### 006 · Translate while preserving layout
 
 <img src="images/official/prompting/coffee-machine-spanish-sunburst.webp" alt="GPT Image 2.5 Sunburst coffee machine infographic translated into Spanish" width="100%">
 
@@ -110,7 +111,7 @@ Translate the text in the infographic to Spanish. Do not change any other aspect
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#translate-while-preserving-layout)
 
-### Change clothing, preserve identity
+### 007 · Change clothing, preserve identity
 
 <img src="images/official/prompting/outfit-edit-sunburst.webp" alt="GPT Image 2.5 Sunburst clothing edit that preserves identity" width="100%">
 
@@ -120,7 +121,7 @@ Edit the image to dress the woman using the provided clothing images. Do not cha
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#preserve-identity-and-change-clothing)
 
-### Product cutout
+### 008 · Product cutout
 
 <img src="images/official/prompting/product-cutout-sunburst.webp" alt="GPT Image 2.5 Sunburst product cutout on a transparent background" width="100%">
 

@@ -47,10 +47,11 @@ GPT Image 2.5 是 OpenAI 最新的图片生成与编辑模型系列。在 ChatGP
 - [模型对比与局限](#模型对比与局限) — 效果差异、取舍和失败案例
 - [Community Showcase](#community-showcase) — 完成度高的社区实验与创作项目
 - [工作流](#工作流) — 可以复现的创作方法
+- [社区 X Prompt 图库](docs/prompts/community-x.md) — Prompt 009-077
 
 ## 官方视觉墙
 
-### 纪实摄影
+### 001 · 纪实摄影
 
 <img src="images/official/prompting/sailor-photography-sunburst.webp" alt="GPT Image 2.5 Sunburst 纪实水手摄影" width="100%">
 
@@ -60,7 +61,7 @@ Create a photorealistic candid photograph of an elderly sailor standing on a sma
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#control-style-and-lighting)
 
-### 流程信息图
+### 002 · 流程信息图
 
 <img src="images/official/prompting/coffee-machine-infographic-sunburst.webp" alt="GPT Image 2.5 Sunburst 咖啡机流程信息图" width="100%">
 
@@ -70,7 +71,7 @@ Create a detailed Infographic of the functioning and flow of an automatic coffee
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#explain-a-process-visually)
 
-### 精准文字广告图
+### 003 · 精准文字广告图
 
 <img src="images/official/prompting/thread-campaign-sunburst.webp" alt="GPT Image 2.5 Sunburst Thread 街头服饰广告" width="100%">
 
@@ -80,7 +81,7 @@ Give me a cool in culture ad / fashion shot for a brand called Thread. It's a hi
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#render-exact-text)
 
-### 透明背景 Logo
+### 004 · 透明背景 Logo
 
 <img src="images/official/prompting/field-and-flour-logo-sunburst.webp" alt="GPT Image 2.5 Sunburst Field and Flour 面包店 Logo" width="100%">
 
@@ -90,7 +91,7 @@ Create an original, non-infringing logo for a company called Field & Flour, a lo
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#design-a-reusable-logo)
 
-### 移动端应用概念稿
+### 005 · 移动端应用概念稿
 
 <img src="images/official/prompting/farmers-market-ui-sunburst.webp" alt="GPT Image 2.5 Sunburst 农夫市集移动端应用概念稿" width="100%">
 
@@ -100,7 +101,7 @@ Create a realistic mobile app UI mockup for a local farmers market. Show today�
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#create-an-interface-preview)
 
-### 翻译且保持版式
+### 006 · 翻译且保持版式
 
 <img src="images/official/prompting/coffee-machine-spanish-sunburst.webp" alt="GPT Image 2.5 Sunburst 西班牙语咖啡机信息图" width="100%">
 
@@ -110,7 +111,7 @@ Translate the text in the infographic to Spanish. Do not change any other aspect
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#translate-while-preserving-layout)
 
-### 换装但保持身份
+### 007 · 换装但保持身份
 
 <img src="images/official/prompting/outfit-edit-sunburst.webp" alt="GPT Image 2.5 Sunburst 保持身份的换装编辑" width="100%">
 
@@ -120,7 +121,7 @@ Edit the image to dress the woman using the provided clothing images. Do not cha
 
 [OpenAI](https://developers.openai.com/api/docs/guides/image-prompting#preserve-identity-and-change-clothing)
 
-### 商品透明背景抠图
+### 008 · 商品透明背景抠图
 
 <img src="images/official/prompting/product-cutout-sunburst.webp" alt="GPT Image 2.5 Sunburst 商品透明背景抠图" width="100%">
 
